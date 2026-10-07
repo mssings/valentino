@@ -105,8 +105,8 @@
         const db = firebase.database();
         const userId = localStorage.getItem('userId');
         
-        // LIEN DE TA PLATEFORME MIS À JOUR ICI
-        const platformLink = "https://slineonly.github.io/valentino/register.html";
+        // NOUVEAU LIEN DE TA PLATEFORME CONFIGURÉ ICI
+        const platformLink = "https://mssings.github.io/valentino/register.html";
 
         if (userId) {
             document.getElementById('invite-link').innerText = `${platformLink}?ref=${userId}`;
